@@ -1,0 +1,29 @@
+.body {
+  background: white;
+}
+
+.app {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #1bd6d3;
+}
+
+#statusbutton {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  background-color: green;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#stopbutton {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  background-color: red;
+  font-size: 20px;
+  padding: 20px;
+}
